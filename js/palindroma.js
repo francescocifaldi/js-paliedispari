@@ -1,4 +1,5 @@
 let word = prompt('Inserisci una parola')
+word=word.toLowerCase();
 console.log(isPalindrom(word));
 
 function isPalindrom(word){
